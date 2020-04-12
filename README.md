@@ -4,7 +4,7 @@ La Dosis es una farmacia online en la cual podras comprar los productos farmaceu
 ## Integrantes del equipo
 - Andrea Blas Murillo: andreeeaaa 
 - Marina Rodríguez Martínez:marinarx20 
--Andrea Fernandez:
+- Andrea Fernandez:
 ## Objetivos del trabajo
 
 Compra-venta de productos farmaceuticos.
