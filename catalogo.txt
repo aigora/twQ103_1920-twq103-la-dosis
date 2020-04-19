@@ -1,0 +1,19 @@
+                            ==> CATALOGO DE LA DOSIS <==
+-------------------------------------------------------------------------------------------
+NOMBRE                        COSTO EN TIENDA $               PRECIO $           CANTIDAD 
+-------------------------------------------------------------------------------------------
+Mascarillas                      12,00                         14,00               500
+Ibuprofeno 600mg                 1,97                          2,50                200
+Guantes                          5,75                          6,50                50
+Gelocatil                        1,38                          2,00                200
+Nurofen Pediatrico               4,65                          5,35                100                       
+Antiestrias 200ml                18,95                         19,37               35              
+Gel ISDIN                        11,00                         11,70               15                          
+Aspirima comprimidos             8,00                          8,80                350
+Gel hidroalcoholico              7,00                          9,00                400
+Amoxicilina                      2,50                          3,75                80
+Paracetamol 600mg                1,50                          2,50                200
+Bisolvon Antitusivo              7,50                          9,00                100
+Enantyum                         3,00                          4,00                200
+
+
