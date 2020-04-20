@@ -13,7 +13,7 @@ struct usuario{
 int main(){
 	
 	struct usuario registrar[USUARIOS];
-	int opcion, salir, opcion2, colum=0, k, contador = 0, result, result2;
+	int opcion, salir, opcion2, c=0, k, contador = 0, result, result2;
 	char aux, user1[50], pass[50];
 	FILE * pfichero2;
 	FILE * pfichero;
@@ -27,8 +27,8 @@ int main(){
 			return -1;
 			}
 
-	while(fscanf(pfichero2,"%s %s\n", &registrar[colum].identidad, &registrar[colum].contrasena)!=EOF){
-		colum++;
+	while(fscanf(pfichero2,"%s %s\n", &registrar[c].identidad, &registrar[c].contrasena)!=EOF){
+		c++;
 	}
 	fclose(pfichero2);	
 	
@@ -66,10 +66,10 @@ switch(opcion){
 		system("cls");
 	
 		printf("Introduce usuario:\n");
-		scanf("%s", &registrar[colum].identidad);
+		scanf("%s", &registrar[c].identidad);
 	
 		printf("Introduce contasena:\n");
-		scanf("%s", &registrar[colum].contrasena);
+		scanf("%s", &registrar[c].contrasena);
 		
 		colum++;
 		
@@ -79,7 +79,7 @@ switch(opcion){
 			printf("No se encuentra el fichero\n");
 			return -1;
 			}
-			for (k=0; k<colum; k++){
+			for (k=0; k<c; k++){
 				fprintf(pfichero2,"%s %s\n", registrar[k].identidad , registrar[k].contrasena);
 			}
 			fclose(pfichero2);
@@ -98,9 +98,6 @@ switch(opcion){
 			printf("Usuario correcto, introduzca contrasena!\n");
 			break;
 		}
-		else if(k==colum-1){
-			printf("USUARIO INCORRECTO O SIN REGISTRAR\n");
-		}
 		}
 		
 	}while(result!=0);
@@ -108,15 +105,12 @@ switch(opcion){
 	do{
 		printf("Introduzca la contasena:");
 		scanf("%s", pass);
-		for(k=0;k<colum;k++){
+		for(k=0;k<c;k++){
 		
 		result = strcmp(pass,registrar[k].contrasena);
 		if(result==0){
 			printf("Contrasena correcta, bienvenid@!\n");
 			break;
-		}
-		else if(k==colum-1){
-			printf("CONTRASENA INCORRECTA O SIN REGISTRAR\n");
 		}
 		}
 	}while(result!=0);
@@ -139,8 +133,11 @@ switch(opcion){
 							if(salir==1){
 								printf("Sesion cerrada con exito, hasta pronto");
 								return 0;
-							}else{
+							}else{  
+								system("cls);
+								return main();
 								system("cls");
+								
 							}
 							break;
 		
