@@ -71,7 +71,7 @@ switch(opcion){
 		printf("Introduce contasena:\n");
 		scanf("%s", &registrar[c].contrasena);
 		
-		colum++;
+		c++;
 		
 		pfichero2 = fopen("hola.txt", "w");
 	
@@ -91,7 +91,7 @@ switch(opcion){
 		do{
 		printf("Introduzca un usuario:");
 		scanf("%s", user1);
-		for(k=0;k<colum;k++){
+		for(k=0;k<c;k++){
 		
 		result = strcmp(user1,registrar[k].identidad);
 		if(result==0){
@@ -134,7 +134,7 @@ switch(opcion){
 								printf("Sesion cerrada con exito, hasta pronto");
 								return 0;
 							}else{  
-								system("cls);
+								system("cls");
 								return main();
 								system("cls");
 								
