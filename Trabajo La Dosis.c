@@ -85,7 +85,7 @@ switch(opcion){
 			fclose(pfichero2);
 		break;
 	} 
-	case 2: //MODIFICARRRRRR!!
+	case 2: 
 		system("cls");
 
 		do{
