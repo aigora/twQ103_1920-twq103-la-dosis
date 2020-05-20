@@ -222,6 +222,7 @@ switch(opcion){
 		
 	default: 
 	printf("Opcion no valida\n");
+	system ("pause");
 	system("cls"); 
 	}
 	system("cls");
