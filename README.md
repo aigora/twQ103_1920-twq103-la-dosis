@@ -12,6 +12,7 @@ La idea de programacion de este trabajo se basa en la compra-venta de productos 
 - Registrarse.
 - Salir de la aplicacion.
 - Entrar como administrador.
+
 Y el segundo menu es el menu de usuario donde puedes:
 - Comprar.
 - Ver el catagolo.
