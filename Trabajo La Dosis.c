@@ -307,9 +307,10 @@ scanf("%d",&opcion2);
 				                        
      	break;
      	system("cls");
-	 	case 4:system("cls"); 
-		 printf("A continuacion, os mostramos las preguntas mas frecuentes\n");
-    		pfichero3 = fopen("preguntas.txt", "r");
+	 	
+		 case 4:system("cls"); 
+		printf("A continuacion, os mostramos las preguntas mas frecuentes\n");
+    	pfichero3 = fopen("preguntas.txt", "r");
 	
 		if (pfichero3 == NULL) {
 			printf("No se encuentra el fichero\n");
