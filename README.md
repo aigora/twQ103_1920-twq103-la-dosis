@@ -1,21 +1,23 @@
 # La Dosis
 
-La Dosis es una farmacia online en la cual podras comprar los productos farmaceuticos mas demandados actualmente, algunos incluso con descuentos. Ademas, los distribuimos por toda España los 365 dias del año.
+La Dosis es una farmacia online en la cual podrás comprar los productos farmaceúticos mas demandados actualmente, algunos incluso con descuentos. Además, los distribuimos por toda España los 365 días del año.
+
 ## Integrantes del equipo
 - Andrea Blas Murillo: andreeeaaa 
 - Marina Rodríguez Martínez:marinarx20 
 - Andrea Fernández Ortiz: andreeea6
+
 ## Objetivos del trabajo
 
-La idea de programacion de este trabajo se basa en la compra-venta de productos farmaceuticos. Tiene dos menus cada cual con numerosas funciones. El primer menu es el menu principal donde puedes:
+La idea de programación de este trabajo se basa en la compra-venta de productos farmaceúticos. Tiene dos menús cada cual con numerosas funciones. El primer menú es el menú principal donde puedes:
 - Iniciar sesion.
 - Registrarse.
 - Salir de la aplicacion.
 - Entrar como administrador.
 
-Y el segundo menu es el menu de usuario donde puedes:
+Y el segundo menú es el menú de usuario donde puedes:
 - Comprar.
-- Ver el catagolo.
-- Tener una atencion mas personalizada.
+- Ver el catágolo.
+- Tener una atención mas personalizada.
 - Ver las preguntas frecuentes.
-- Salir de la aplicacion.
+- Salir de la aplicación.
