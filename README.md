@@ -7,5 +7,14 @@ La Dosis es una farmacia online en la cual podras comprar los productos farmaceu
 - Andrea Fernández Ortiz: andreeea6
 ## Objetivos del trabajo
 
-La idea de programacion de este trabajo se basa en la compra-venta de productos farmaceuticos. Tambien contiene otras opciones como registrarte o iniciar sesion, poder ver el catalogo de productos o una atencion mas personalizada.
-Ademas, podras encontrar las preguntas mas frecuentes que hacen los usuarios.
+La idea de programacion de este trabajo se basa en la compra-venta de productos farmaceuticos. Tiene dos menus cada cual con numerosas funciones. El primer menu es el menu principal donde puedes:
+- Iniciar sesion.
+- Registrarse.
+- Salir de la aplicacion.
+- Entrar como administrador.
+Y el segundo menu es el menu de usuario donde puedes:
+- Comprar.
+- Ver el catagolo.
+- Tener una atencion mas personalizada.
+- Ver las preguntas frecuentes.
+- Salir de la aplicacion.
